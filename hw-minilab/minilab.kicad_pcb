@@ -2717,7 +2717,7 @@
       (net 11 "+5V") (pinfunction "B") (pintype "passive") (tstamp c21932bc-0d76-4a7c-a300-b59efdaeb292))
     (pad "6" thru_hole oval (at 2.54 5.08 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 24 "Net-(J4-Pad4)") (pinfunction "C") (pintype "passive") (tstamp 85c9855c-2513-4557-9d42-cf2ff9f1653f))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x03_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x03_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3377,10 +3377,15 @@
       (net 31 "/IN1") (pinfunction "Pin_2") (pintype "passive") (tstamp 012c5ad4-d851-46b1-b498-a974154cd90b))
     (pad "3" thru_hole circle (at 10.16 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask)
       (net 32 "/IN2") (pinfunction "Pin_3") (pintype "passive") (tstamp b55f2dfd-5d83-48b8-9f95-5c0fc0919261))
-    (model "${KICAD6_3DMODEL_DIR}/TerminalBlock_RND.3dshapes/TerminalBlock_RND_205-00288_1x03_P5.08mm_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/steps/2EDGK-5.08-03P-14-00AH.STEP"
+      (offset (xyz -2.54 4.04 4))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
+    )
+    (model "${KIPRJMOD}/steps/2EDGV-5.08-03P-14-00AH.STEP"
+      (offset (xyz -2.54 3.74 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -3480,10 +3485,15 @@
       (net 26 "/IN7") (pinfunction "Pin_2") (pintype "passive") (tstamp 54733cd2-a02d-4fce-b200-4a0c154ce9a2))
     (pad "3" thru_hole circle (at 10.16 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask)
       (net 1 "/OUT0") (pinfunction "Pin_3") (pintype "passive") (tstamp 3d21f6a2-ed79-4d7b-b04d-e94c8b1de39c))
-    (model "${KICAD6_3DMODEL_DIR}/TerminalBlock_RND.3dshapes/TerminalBlock_RND_205-00288_1x03_P5.08mm_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/steps/2EDGK-5.08-03P-14-00AH.STEP"
+      (offset (xyz -2.54 4.04 4))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
+    )
+    (model "${KIPRJMOD}/steps/2EDGV-5.08-03P-14-00AH.STEP"
+      (offset (xyz -2.54 3.74 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -3583,10 +3593,15 @@
       (net 5 "/OUT2") (pinfunction "Pin_2") (pintype "passive") (tstamp a43b23b3-51cb-4d79-aa7e-1e1c3223e91b))
     (pad "3" thru_hole circle (at 10.16 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask)
       (net 6 "/OUT3") (pinfunction "Pin_3") (pintype "passive") (tstamp 0649e87a-f230-4be6-9e79-c44cec42ad1c))
-    (model "${KICAD6_3DMODEL_DIR}/TerminalBlock_RND.3dshapes/TerminalBlock_RND_205-00288_1x03_P5.08mm_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/steps/2EDGK-5.08-03P-14-00AH.STEP"
+      (offset (xyz -2.54 4.04 4))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
+    )
+    (model "${KIPRJMOD}/steps/2EDGV-5.08-03P-14-00AH.STEP"
+      (offset (xyz -2.54 3.74 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -3599,7 +3614,7 @@
     (property "Sheetname" "")
     (path "/7d7196a6-4469-4c00-9b20-bb82e941487c")
     (attr through_hole)
-    (fp_text reference "J7" (at -49.53 24.14) (layer "B.SilkS")
+    (fp_text reference "J7" (at -1.27 6.35) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 27b84302-7843-48a4-8898-a4819b738294)
     )
@@ -3686,10 +3701,15 @@
       (net 9 "/OUT5") (pinfunction "Pin_2") (pintype "passive") (tstamp acba0682-67a9-40d4-90fe-3a0bd1908d2c))
     (pad "3" thru_hole circle (at 10.16 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask)
       (net 10 "/OUT6") (pinfunction "Pin_3") (pintype "passive") (tstamp 02e6e9ab-ef20-4806-be3b-62beadc56003))
-    (model "${KICAD6_3DMODEL_DIR}/TerminalBlock_RND.3dshapes/TerminalBlock_RND_205-00288_1x03_P5.08mm_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/steps/2EDGK-5.08-03P-14-00AH.STEP"
+      (offset (xyz -2.54 4.04 4))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
+    )
+    (model "${KIPRJMOD}/steps/2EDGV-5.08-03P-14-00AH.STEP"
+      (offset (xyz -2.54 3.74 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -3789,10 +3809,15 @@
       (net 2 "GND") (pinfunction "Pin_2") (pintype "passive") (tstamp 7a1f0cee-1a28-4981-8fa5-b7a0b94163c3))
     (pad "3" thru_hole circle (at 10.16 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask)
       (net 18 "Net-(D3-Pad2)") (pinfunction "Pin_3") (pintype "passive") (tstamp e4db000f-eda3-4332-a992-e6d08adc194b))
-    (model "${KICAD6_3DMODEL_DIR}/TerminalBlock_RND.3dshapes/TerminalBlock_RND_205-00288_1x03_P5.08mm_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/steps/2EDGK-5.08-03P-14-00AH.STEP"
+      (offset (xyz -2.54 4.04 4))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
+    )
+    (model "${KIPRJMOD}/steps/2EDGV-5.08-03P-14-00AH.STEP"
+      (offset (xyz -2.54 3.74 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -3892,10 +3917,15 @@
       (net 28 "/IN4") (pinfunction "Pin_2") (pintype "passive") (tstamp f1c52137-e85f-4b1a-a7e9-dd620ef6441a))
     (pad "3" thru_hole circle (at 10.16 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask)
       (net 29 "/IN5") (pinfunction "Pin_3") (pintype "passive") (tstamp b2153bf9-ce7b-485e-babf-ec78f90e7460))
-    (model "${KICAD6_3DMODEL_DIR}/TerminalBlock_RND.3dshapes/TerminalBlock_RND_205-00288_1x03_P5.08mm_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/steps/2EDGK-5.08-03P-14-00AH.STEP"
+      (offset (xyz -2.54 4.04 4))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
+    )
+    (model "${KIPRJMOD}/steps/2EDGV-5.08-03P-14-00AH.STEP"
+      (offset (xyz -2.54 3.74 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -3995,10 +4025,15 @@
       (net 20 "Net-(D4-Pad2)") (pinfunction "Pin_2") (pintype "passive") (tstamp d4d3a761-422c-41d5-97a6-1807af97e943))
     (pad "3" thru_hole circle (at 10.16 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask)
       (net 15 "/OSC") (pinfunction "Pin_3") (pintype "passive") (tstamp 43ff5b1d-339f-43db-937c-5eee3e73f187))
-    (model "${KICAD6_3DMODEL_DIR}/TerminalBlock_RND.3dshapes/TerminalBlock_RND_205-00288_1x03_P5.08mm_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/steps/2EDGK-5.08-03P-14-00AH.STEP"
+      (offset (xyz -2.5 4.04 4))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
+    )
+    (model "${KIPRJMOD}/steps/2EDGV-5.08-03P-14-00AH.STEP"
+      (offset (xyz -2.54 3.74 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 

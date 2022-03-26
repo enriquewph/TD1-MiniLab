@@ -387,7 +387,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "minilab.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

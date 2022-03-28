@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "minilab-backups")(type "KiCad")(uri "${KIPRJMOD}/minilab-backups.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
+)
